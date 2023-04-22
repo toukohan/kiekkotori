@@ -1,10 +1,10 @@
-auth-products
+name: tests-products
 
 on:
   pull_request:
     paths:
       - "products/**"
-      
+
 jobs:
   build:
     runs-on: ubuntu-latest
