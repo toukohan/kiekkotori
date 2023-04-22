@@ -1,8 +1,10 @@
 auth-products
 
 on:
-  pull_request
-  
+  pull_request:
+    paths:
+      - "products/**"
+      
 jobs:
   build:
     runs-on: ubuntu-latest
